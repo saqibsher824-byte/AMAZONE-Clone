@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Amazon Navbar Clone</title>
+</head>
+
+<body class="position-relative">
+    <div id="loader" >
+        <div class="spiner1 rounded-circle">
+            <div class="spiner2"></div>
+        </div>
+    </div>
+    
+    <!-- Content -->
+ 
+    <header>
+       
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+            <div class="container-fluid">
+
+                <!-- Brand -->
+                <a class="navbar-brand hoverc pt-3" href="#">
+                    <img src="Amazon_2024.svg" height="34" alt="Amazon Logo">
+                </a>
+
+                <!-- Location -->
+                <div class="d-none d-sm-flex align-items-center text-white me-2 hoverc">
+                    <i class="fa-solid fa-location-dot me-1 mt-4"></i>
+                    <div>
+                        <small>Deliver to</small><br>
+                        <span class="fw-bold">Pakistan</span>
+                    </div>
+                </div>
+
+                <!-- Toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar Content -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <!-- Search bar -->
+                    <form class="d-flex flex-grow-1 mx-2 my-2 my-md-0">
+                        <div class="input-group">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">All</button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else</a></li>
+                            </ul>
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-warning" type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- Right side -->
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <!-- Language -->
+                        <li class="nav-item hoverc ">
+                            <a class="nav-link d-flex align-items-center mt-3" href="#">
+                                <img src="united-states-flag-icon.svg" height="15" alt="">
+                                <span class="fw-bold ms-1">EN</span>
+                                <i class="fa-solid fa-caret-down ms-1 small"></i>
+                            </a>
+                        </li>
+
+                        <!-- Account -->
+                        <li class="nav-item hoverc">
+                            <a class="nav-link text-white" href="#">
+                                <small>Hello, sign in</small><br>
+                                <span class="fw-bold">Accounts & Lists</span>
+                                <i class="fa-solid fa-caret-down ms-1 small"></i>
+                            </a>
+                        </li>
+
+                        <!-- Orders -->
+                        <li class="nav-item hoverc">
+                            <a class="nav-link text-white" href="#">
+                                <small>Returns</small><br>
+                                <span class="fw-bold">& Orders</span>
+                            </a>
+                        </li>
+
+                        <!-- Cart -->
+                        <li class="nav-item position-relative hoverc">
+                            <a class="nav-link pt-3" href="new.html">
+                                <i class="fa-solid fa-cart-shopping fa-2x text-white"></i>
+                                <span class="position-absolute badge number rounded-pill bg-warning text-dark"
+                                    style="top: -1px; right: 12px;">
+                                    0
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div>
+            <nav class="navbar navbar-expand-lg p-0 m-0" style="background: #5c5a5a;">
+                <div class="container-fluid">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active hovera  text-capitalize text-white p-2 m-0 "
+                                    aria-current="page" href="#"><i class="fa-solid fa-bars me-1"></i>all</a>
+                                    
+                                    
+                            </li>
+                            <li class="nav-item">
+                                <a class="hovera  nav-link fw-bolder  text-white p-2 m-0 "
+                                    style="font-size: 14px;color: black;" href="#">today's deals</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="hovera  nav-link fw-bolder  text-white p-2 m-0 "
+                                    style="font-size: 14px;color: black;" href="#">prime vedio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="hovera  nav-link fw-bolder text-white p-2 m-0  "
+                                    style="font-size: 14px;color: black;" href="#">rigistry </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="hovera  nav-link fw-bolder  text-white p-2 m-0 "
+                                    style="font-size: 14px;color: black;" href="#">gift cards </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="hovera  nav-link fw-bolder  text-white p-2 m-0 "
+                                    style="font-size: 14px;color: black;" href="#">costumer services </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="hovera  nav-link fw-bolder  text-white p-2 m-0 "
+                                    style="font-size: 14px;color: black;" href="#"> sell </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main style="background-color: rgb(226, 241, 255);">
+        <section style="width: 100%; position: relative;">
+            <div class="row g-0" style="width: 100%; height: 100vh;">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner" style="height: 100vh">
+                        <div class="carousel-item active" style="height: 100%;">
+                            <img src="asserts/slider1.jpg" class="d-block w-100"
+                                style="height: 100%; object-fit: cover;" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="asserts/slider2.jpg" class="d-block w-100"
+                                style="height: 100vh; object-fit: cover;" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="asserts/slider3.jpg" class="d-block w-100"
+                                style="height: 100vh; object-fit: cover;" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="asserts/slider4.jpg" class="d-block w-100"
+                                style="height: 100vh; object-fit: cover;" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class=" carousel-control-prev-icon" style="box-shadow:   1px 1px 2px red,
+  0 0 1em white,
+  0 0 0.2em white; backdrop-filter: blur(10px);
+  " aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" style="box-shadow:   1px 1px 2px red,
+  0 0 1em white,
+  0 0 0.2em white;" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="overlay"></div>
+        </section>
+        <section class="pos">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card border-0 " style="background-color: rgb(255, 255, 255); height: 100%;">
+
+                            <div class="card-body">
+                                <h5 class="card-title h3 px-2">Get your game on</h5>
+                                <img src="asserts/c1.jpg" class="card-img-top rounded-0 py-2 px-2"
+                                    style="height: 303px;width: 269px;object-fit: cover;" alt="...">
+                                <a href="" class="h6 fw-lighter px-2 hoverl "
+                                    style="color: rgb(45, 177, 253);text-decoration: none;">shop gaming</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0 " style="background-color: rgb(255, 255, 255); height: 100%;">
+
+                            <div class="card-body">
+                                <h5 class="card-title h3 px-2">Shop for your home essentials</h5>
+                                <div class="d-flex justify-content-between overflow-0 flex-wrap gap-2">
+                                    <div style="flex-basis: 48%; overflow: hidden;">
+
+                                        <img src="asserts/c2.jpg" class="d-flex "
+                                            style="width:  100% ;object-fit: cover;height: 15vh; " alt="">
+                                        <h6 class="text-capitalize n" style="font-size: 13px;">cleaning tools</h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/c3.jpg" class="d-flex "
+                                            style="width:  100%; height: 15vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize n" style="font-size: 13px;">home storage</h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/c4.jpg" class="d-flex "
+                                            style="width:  100%; height: 15vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">home decor</h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/c5.jpg" class="d-flex "
+                                            style="width:  100%; height: 15vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">bedding</h6>
+                                    </div>
+                                </div>
+                                <a href="" class="h6 fw-lighter p
+                            mt-3 pt-2 px-2 hoverl"
+                                    style="color: rgb(45, 177, 253);text-decoration: none ; display: block;">discover
+                                    more in home</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0 " style="background-color: rgb(255, 255, 255); height: 100%;">
+
+                            <div class="card-body">
+                                <h5 class="card-title h3 px-2">Shop for your home essentials</h5>
+                                <div class="d-flex justify-content-between overflow-0 flex-wrap gap-2">
+                                    <div style="flex-basis: 48%; overflow: hidden;">
+
+                                        <img src="asserts/c6.jpg" class="d-flex "
+                                            style="width:  100% ;object-fit: cover;height: 15vh; " alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">jeans under $50</h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/c7.jpg" class="d-flex "
+                                            style="width:  100%; height: 15vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">top under $25</h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/c8.jpg" class="d-flex "
+                                            style="width:  100%; height: 15vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">dresses under $30</h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/c9.jpg" class="d-flex "
+                                            style="width:  100%; height: 15vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">shoes under $50</h6>
+                                    </div>
+                                </div>
+                                <a href="" class="h6 fw-lighter p
+                                                mt-3 pt-2 px-2 hoverl"
+                                    style="color: rgb(45, 177, 253);text-decoration: none ; display: block;">see all</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="col-md-4">
+                        <div class="card border-0 " style="background-color: rgb(255, 255, 255); height: 100%;">
+
+                            <div class="card-body">
+                                <h5 class="card-title h3 px-2">Top categories in Kitchen appliances</h5>
+                                <div class="d-flex justify-content-between overflow-0 flex-wrap gap-2">
+                                    <div style="flex-basis: 100%; overflow: hidden;">
+
+                                        <img src="asserts/c10.jpg" class="d-flex "
+                                            style="width:  100% ;object-fit: cover;height: 25vh; " alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">cooker</h6>
+                                    </div>
+
+                                    <div style="flex-basis: 30%;">
+
+                                        <img src="asserts/c11.jpg" class="d-flex "
+                                            style="width:  100%; height: 11vh; object-fit: cover; " alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">coffee</h6>
+                                    </div>
+                                    <div style="flex-basis: 30%;">
+
+                                        <img src="asserts/c12.jpg" class="d-flex "
+                                            style="width:  100%; height: 11vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Pots and P…</h6>
+                                    </div>
+                                    <div style="flex-basis: 30%;">
+
+                                        <img src="asserts/c13.jpg" class="d-flex "
+                                            style="width:  100%; height: 11vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">kettles</h6>
+                                    </div>
+                                </div>
+                                <a href="" class="h6 fw-lighter px-2 hoverl "
+                                    style="color: rgb(45, 177, 253);text-decoration: none;">shop gaming</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0 " style="background-color: rgb(255, 255, 255); height: 100%;">
+
+                            <div class="card-body">
+                                <h5 class="card-title h3 px-2">Refresh your space</h5>
+                                <div class="d-flex mt-5 justify-content-between overflow-0 flex-wrap gap-2">
+                                    <div style="flex-basis: 48%; overflow: hidden;">
+
+                                        <img src="asserts/c14.jpg" class="d-flex "
+                                            style="width:  100% ;object-fit: cover;height: 15vh; " alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Dining
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/c15.jpg" class="d-flex "
+                                            style="width:  100%; height: 15vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">home </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/c16.jpg" class="d-flex "
+                                            style="width:  100%; height: 15vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Kitchen
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/c17.jpg" class="d-flex "
+                                            style="width:  100%; height: 15vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+                                            Health and Beauty</h6>
+                                    </div>
+                                </div>
+                                <a href="" class="h6 fw-lighter 
+                                            mt-3 pt-4 px-2 hoverl"
+                                    style="color: rgb(45, 177, 253);text-decoration: none ; display: block;">see
+                                    more</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0 " style="background-color: rgb(255, 255, 255); height: 100%;">
+
+                            <div class="card-body">
+                                <h5 class="card-title h3 px-2">Shop for your home essentials</h5>
+                                <div class="d-flex justify-content-between overflow-0 flex-wrap gap-2">
+                                    <div style="flex-basis: 48%; overflow: hidden;">
+
+                                        <img src="asserts/c18.jpg" class="d-flex "
+                                            style="width:  100% ;object-fit: cover;height: 15vh; " alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Kitchen & dining
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/c19.jpg" class="d-flex "
+                                            style="width:  100%; height: 15vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Kitchen & dining
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/c20.jpg" class="d-flex "
+                                            style="width:  100%; height: 15vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Décor
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/c21.jpg" class="d-flex "
+                                            style="width:  100%; height: 15vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Décor
+                                        </h6>
+                                    </div>
+                                </div>
+                                <a href="" class="h6 fw-lighter p
+                                                                mt-3 pt-4 px-2 hoverl"
+                                    style="color: rgb(45, 177, 253);text-decoration: none ; display: block;">Shop the
+                                    latest from Home</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="position-relative " style="bottom: 365px;">
+            <div class="containr">
+
+                <!-- Left button -->
+                <button class="scroll-btn left-btn left-btn1 ">&#10094;</button>
+
+                <!-- Scrollable images -->
+                <div class="scroll-carousel a">
+
+                    <img src="asserts/a1.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a2.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a4.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a5.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a6.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a7.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a8.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a9.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a10.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a11.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a12.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a13.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a14.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a15.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a16.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a17.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a18.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a19.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a20.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a21.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a22.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/a23.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                </div>
+
+                <!-- Right button -->
+                <button class="scroll-btn right-btn right-btn1">&#10095;</button>
+            </div>
+        </section>
+        <section class="position-relative mt-3" style="bottom: 365px;">
+            <div class="containr">
+
+                <!-- Left button -->
+                <button class="scroll-btn left-btn left-btn2">&#10094;</button>
+
+                <!-- Scrollable images -->
+                <div class="scroll-carousel b">
+
+                    <img src="asserts/q1.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q2.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q4.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q5.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q6.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q7.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q8.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q9.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q10.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q11.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q12.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q13.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q14.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q15.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q16.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q17.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q18.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q19.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q20.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q21.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q22.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q23.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                </div>
+
+                <!-- Right button -->
+                <button class="scroll-btn right-btn right-btn2">&#10095;</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="container" style="position: relative; bottom: 365px;">
+                <div class="row my-4">
+
+                    <div class="col-md-4">
+                        <div class="card border-0 " style="background-color: rgb(255, 255, 255); height: 100%;">
+
+                            <div class="card-body">
+                                <h5 class="card-title h3 px-2">Wireless Tech</h5>
+                                <div class="d-flex mt-5 justify-content-between overflow-0 flex-wrap gap-2">
+                                    <div style="flex-basis: 48%; overflow: hidden;">
+
+                                        <img src="asserts/w1.jpg" class="d-flex "
+                                            style="width:  100% ;object-fit: cover;height: 18vh; " alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Smartphones
+
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/w2.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+                                            Watches </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/w3.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+                                            Headphones
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/w4.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+
+                                            Tablets</h6>
+                                    </div>
+                                </div>
+                                <a href="" class="h6 fw-lighter 
+                                                    mt-3 pt-4 px-2 hoverl"
+                                    style="color: rgb(45, 177, 253);text-decoration: none ; display: block;">discover
+                                    more</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0 " style="background-color: rgb(255, 255, 255); height: 100%;">
+
+                            <div class="card-body">
+                                <h5 class="card-title h3 px-2">Gear up to get fit</h5>
+                                <div class="d-flex justify-content-between overflow-0 flex-wrap gap-2 mt-5">
+                                    <div style="flex-basis: 48%; overflow: hidden;">
+
+                                        <img src="asserts/w5.jpg" class="d-flex "
+                                            style="width:  100% ;object-fit: cover;height: 18vh; " alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Clothing
+
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/w6.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+                                            Trackers
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/w7.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+                                            Equipment
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/w8.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+                                            Deals
+                                        </h6>
+                                    </div>
+                                </div>
+                                <a href="" class="h6 fw-lighter p
+                                                                        mt-3 pt-4 px-2 hoverl"
+                                    style="color: rgb(45, 177, 253);text-decoration: none ; display: block;">discover
+                                    more</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0 " style="background-color: rgb(255, 255, 255); height: 100%;">
+
+                            <div class="card-body">
+                                <h5 class="card-title h3 px-2">Have more fun with family</h5>
+                                <div class="d-flex justify-content-between overflow-0 flex-wrap gap-2  mt-3">
+                                    <div style="flex-basis: 48%; overflow: hidden;">
+
+                                        <img src="asserts/w9.jpg" class="d-flex "
+                                            style="width:  100% ;object-fit: cover;height: 18vh; " alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Outdoor Play Sets
+
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/w10.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+
+                                            Learning Toys
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/w11.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+                                            Action Figures
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/w12.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+
+                                            Pretend Play Toys
+                                        </h6>
+                                    </div>
+                                </div>
+                                <a href="" class="h6 fw-lighter p
+                                                                                    mt-3 pt-4 px-2 hoverl"
+                                    style="color: rgb(45, 177, 253);text-decoration: none ; display: block;">discover
+                                    more</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="position-relative mt-3" style="bottom: 365px;">
+            <div class="containr">
+
+                <!-- Left button -->
+                <button class="scroll-btn left-btn left-btn3">&#10094;</button>
+
+                <!-- Scrollable images -->
+                <div class="scroll-carousel c">
+
+                    <img src="asserts/e1.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/e2.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/e4.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/e5.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/e6.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/e7.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/e8.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/e9.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/e10.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/e11.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/e12.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/e13.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/q10.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/e15.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+
+                </div>
+
+                <!-- Right button -->
+                <button class="scroll-btn right-btn right-btn3">&#10095;</button>
+            </div>
+        </section>
+        <section class="position-relative mt-3" style="bottom: 365px;">
+            <div class="containr">
+
+                <!-- Left button -->
+                <button class="scroll-btn left-btn left-btn4">&#10094;</button>
+
+                <!-- Scrollable images -->
+                <div class="scroll-carousel d">
+
+                    <img src="asserts/m1.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m2.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m3.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m4.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m5.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m6.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m7.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m8.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m9.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m10.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m11.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m12.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m13.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m14.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m15.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m16.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m17.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m18.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m19.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m20.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m21.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/m22.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+
+                </div>
+
+                <!-- Right button -->
+                <button class="scroll-btn right-btn right-btn4">&#10095;</button>
+            </div>
+        </section>
+        <section>
+            <div class="container" style="position: relative; bottom: 365px;">
+                <div class="row my-4">
+
+                    <div class="col-md-4">
+                        <div class="card border-0 " style="background-color: rgb(255, 255, 255); height: 100%;">
+
+                            <div class="card-body">
+                                <h5 class="card-title h3 px-2">Elevate your Electronics</h5>
+                                <div class="d-flex  justify-content-between overflow-0 flex-wrap gap-2">
+                                    <div style="flex-basis: 48%; overflow: hidden;">
+
+                                        <img src="asserts/r1.jpg" class="d-flex "
+                                            style="width:  100% ;object-fit: cover;height: 18vh; " alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Headphones
+
+
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/r2.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+
+                                            Tablets </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/r3.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+                                            Gaming
+
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/r4.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+
+
+                                            Speakers</h6>
+                                    </div>
+                                </div>
+                                <a href="" class="h6 fw-lighter 
+                                                            mt-3 pt-4 px-2 hoverl"
+                                    style="color: rgb(45, 177, 253);text-decoration: none ; display: block;">discover
+                                    more</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0 " style="background-color: rgb(255, 255, 255); height: 100%;">
+
+                            <div class="card-body">
+                                <h5 class="card-title h3 px-2">Level up your beauty routine</h5>
+                                <div class="d-flex justify-content-between overflow-0 flex-wrap gap-2 ">
+                                    <div style="flex-basis: 48%; overflow: hidden;">
+
+                                        <img src="asserts/r5.jpg" class="d-flex "
+                                            style="width:  100% ;object-fit: cover;height: 18vh; " alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Makeup
+
+
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/r6.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+
+                                            Brushes
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/r7.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+                                            Sponges
+
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/r8.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+
+                                            Mirrors
+                                        </h6>
+                                    </div>
+                                </div>
+                                <a href="" class="h6 fw-lighter p
+                                                                                mt-3 pt-4 px-2 hoverl"
+                                    style="color: rgb(45, 177, 253);text-decoration: none ; display: block;">see
+                                    more</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0 " style="background-color: rgb(255, 255, 255); height: 100%;">
+
+                            <div class="card-body">
+                                <h5 class="card-title h3 px-2">Deals on top categories</h5>
+                                <div class="d-flex justify-content-between overflow-0 flex-wrap gap-2  mt-3">
+                                    <div style="flex-basis: 48%; overflow: hidden;">
+
+                                        <img src="asserts/r9.jpg" class="d-flex "
+                                            style="width:  100% ;object-fit: cover;height: 18vh; " alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Books
+
+
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/r10.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+
+                                            Fashion
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/r11.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+                                            PC
+
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/r12.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+
+
+                                            Beauty
+                                        </h6>
+                                    </div>
+                                </div>
+                                <a href="" class="h6 fw-lighter p
+                                                                                            mt-3 pt-4 px-2 hoverl"
+                                    style="color: rgb(45, 177, 253);text-decoration: none ; display: block;">discover
+                                    more</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="position-relative mt-3" style="bottom: 365px;">
+            <div class="containr">
+
+                <!-- Left button -->
+                <button class="scroll-btn left-btn left-btn5">&#10094;</button>
+
+                <!-- Scrollable images -->
+                <div class="scroll-carousel e">
+
+                    <img src="asserts/p1.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/p2.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/p4.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/p5.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/p6.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/p7.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/p8.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/p9.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/p10.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/p11.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/p12.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/p13.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/p1.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/p15.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+
+                </div>
+
+                <!-- Right button -->
+                <button class="scroll-btn right-btn right-btn5">&#10095;</button>
+            </div>
+        </section>
+        <section class="position-relative mt-3" style="bottom: 365px;">
+            <div class="containr">
+
+                <!-- Left button -->
+                <button class="scroll-btn left-btn left-btn6">&#10094;</button>
+
+                <!-- Scrollable images -->
+                <div class="scroll-carousel f">
+
+                    <img src="asserts/t1.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/t2.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/t4.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/t5.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/t6.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/t7.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/t8.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/t9.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/t10.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/t11.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/t12.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/t13.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/t14.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/t15.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+
+                </div>
+
+                <!-- Right button -->
+                <button class="scroll-btn right-btn right-btn6">&#10095;</button>
+            </div>
+        </section>
+        <section class="position-relative mt-3" style="bottom: 365px;">
+            <div class="container">
+
+                <div class="row my-4">
+
+                    <div class="col-md-4">
+                        <div class="card border-0 " style="background-color: rgb(255, 255, 255); height: 100%;">
+
+                            <div class="card-body">
+                                <h5 class="card-title h3 px-2">Gaming merchandise</h5>
+                                <div class="d-flex  justify-content-between overflow-0 flex-wrap gap-2 mt-5">
+                                    <div style="flex-basis: 48%; overflow: hidden;">
+
+                                        <img src="asserts/y1.jpg" class="d-flex "
+                                            style="width:  100% ;object-fit: cover;height: 18vh; " alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Apparel
+
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/y2.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">hats </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/y3.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Action figures
+
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/y4.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+                                            mugs</h6>
+                                    </div>
+                                </div>
+                                <a href="" class="h6 fw-lighter 
+                                                    mt-3 pt-4 px-2 hoverl"
+                                    style="color: rgb(45, 177, 253);text-decoration: none ; display: block;">see
+                                    more</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0 " style="background-color: rgb(255, 255, 255); height: 100%;">
+
+                            <div class="card-body">
+                                <h5 class="card-title h3 px-2">Deals on top categories</h5>
+                                <div class="d-flex mt-5 justify-content-between overflow-0 flex-wrap gap-2">
+                                    <div style="flex-basis: 48%; overflow: hidden;">
+
+                                        <img src="asserts/y5.jpg" class="d-flex "
+                                            style="width:  100% ;object-fit: cover;height: 18vh; " alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Books
+
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/y6.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+                                            Fashion </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/y7.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">pc
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/y8.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">
+                                            Beauty</h6>
+                                    </div>
+                                </div>
+                                <a href="" class="h6 fw-lighter 
+                                                                mt-3 pt-4 px-2 hoverl"
+                                    style="color: rgb(45, 177, 253);text-decoration: none ; display: block;">Explore all
+                                    in Beauty</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0 " style="background-color: rgb(255, 255, 255); height: 100%;">
+
+                            <div class="card-body">
+                                <h5 class="card-title h3 px-2">Discover these beauty products for you</h5>
+                                <div class="d-flex justify-content-between overflow-0 flex-wrap gap-2 mt-5">
+                                    <div style="flex-basis: 48%; overflow: hidden;">
+
+                                        <img src="asserts/y9.jpg" class="d-flex "
+                                            style="width:  100% ;object-fit: cover;height: 18vh; " alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Kitchen & dining
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/y10.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Kitchen & dining
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/y11.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Décor
+                                        </h6>
+                                    </div>
+                                    <div style="flex-basis: 48%;">
+
+                                        <img src="asserts/y12.jpg" class="d-flex "
+                                            style="width:  100%; height: 18vh; object-fit: cover;" alt="">
+                                        <h6 class="text-capitalize" style="font-size: 13px;">Décor
+                                        </h6>
+                                    </div>
+                                </div>
+                                <a href="" class="h6 fw-lighter p
+                                                                        mt-3 pt-4 px-2 hoverl"
+                                    style="color: rgb(45, 177, 253);text-decoration: none ; display: block;">Shop the
+                                    latest from Home</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="position-relative mt-3 mb-3" style="bottom: 365px;">
+            <div class="containr">
+
+                <!-- Left button -->
+                <button class="scroll-btn left-btn left-btn7">&#10094;</button>
+
+                <!-- Scrollable images -->
+                <div class="scroll-carousel g">
+
+                    <img src="asserts/s1.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/s2.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/s4.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/s5.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/s6.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/s7.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/s8.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/s9.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/s10.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/s11.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/s12.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/s13.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/s14.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+                    <img src="asserts/s15.jpg" class="img-fluid px-4" style="object-fit: cover;" alt="...">
+
+                </div>
+
+                <!-- Right button -->
+                <button class="scroll-btn right-btn right-btn7">&#10095;</button>
+            </div>
+        </section>
+        <section class="bg-white py-4 px-0 " style="position: relative;bottom: 365px;">
+            <div class="row border-dark border  bg-white d-flex justify-content-center  pt-4" style="width:100%;">
+                <h1 class="text-center h3 fw-bolder text-capitalize">See personalized recommendations</h1>
+                <a href="" class="btn btn-warning rounded-pill my-1 text-capitalize"
+                    style="display: inline-block;width: 150px">sign in</a>
+                <p class="text-center text-capitalize">new costumer <a href="" style="color: rgb(134, 187, 187);">sign
+                        in</a></p>
+            </div>
+
+        </section>
+        <section style="position: relative;bottom: 365px;">
+            <button class="btn text-white rounded-0 text-capitalize"
+                style="background-color: rgb(78, 78, 78); width: 100%;"> back to top</button>
+        </section>
+
+    </main>
+
+    <footer class="row pt-5 d-flex justify-content-between   "
+        style="width: 100%;background: #373f41;position: relative;bottom: 365px; ">
+
+        <div class="col mb-3 ms-3 text-white  " style="flex-grow: 1;">
+            <h5 class="mb-2 pb-2" style="font-size:16px">Get to Know Us </h5>
+            <ul class="nav flex-column ">
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">About
+                        Amazon</a></li>
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Blog</a>
+                </li>
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Investor
+                        Relations</a></li>
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Amazon
+                        Devices</a></li>
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Amazon
+                        Science</a></li>
+            </ul>
+        </div>
+        <div class="col mb-3 text-white "
+            style=" display: flex; flex-direction: column; align-items: center;flex-grow: 1;">
+            <h5 class="p-0 m-0 me-4 pe-2 mb-2 pb-2" style="font-size:16px">
+                Make Money with Us
+
+
+
+
+
+                ›</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Sell
+                        products on Amazon</a></li>
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Sell on
+                        Amazon Business</a></li>
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Sell apps
+                        on Amazon</a></li>
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Become an
+                        Affiliate</a></li>
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Advertise
+                        Your Products</a></li>
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 "
+                        style="font-size:14px">Self-Publish with Us</a></li>
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Host an
+                        Amazon Hub</a></li>
+
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">See More
+                        Make Money with Us</a></li>
+            </ul>
+        </div>
+        <div class="col mb-3  text-white "
+            style=" display: flex; flex-direction: column; align-items: flex-start;flex-grow: 1;">
+            <h5 class="  mb-2 pb-2 " style="font-size:16px">Amazon Payment Products
+
+
+
+            </h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Amazon
+                        Business Card</a></li>
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Shop with
+                        Points</a></li>
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Reload
+                        Your Balance</a></li>
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Amazon
+                        Currency Converte</a></li>
+
+            </ul>
+        </div>
+        <div class="col mb-3 text-white  "
+            style=" display: flex; flex-direction: column; align-items:start;flex-grow: 1;">
+            <h5 class="ps-4 ms-4 mb-2 pb-2 " style="font-size:16px ;text-align: justify;">Let Us Help You
+
+
+
+
+            </h5>
+            <ul class="nav flex-column ms-5">
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Amazon
+                        and COVID-19</a></li>
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Your
+                        Account</a></li>
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Your
+                        Orders</a></li>
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Shipping
+                        Rates & Policies</a></li>
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Returns &
+                        Replacements</a></li>
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Manage
+                        Your Content and Devices</a></li>
+                <li class="nav-item mb-2 "><a href="#" class="text-white nav-link p-0 " style="font-size:14px">Help</a>
+                </li>
+            </ul>
+        </div>
+        <div class="container mx-auto">
+            <div class="row border-top mt-5 border-white d-flex align-item-center " style="height: 200px;width: 100%;">
+                <div class=" my-auto px-5 d-flex justify-content-around ">
+                    <img src="Amazon_2024.svg" class="" style=" height: 40px;" alt="">
+                    <div>
+
+                        <a href="" class="btn btn-outline-secondary"><i
+                                class="fa-solid fa-globe pe-2"></i><span>English</span><i
+                                class="fa-solid fa-sort ps-4"></i></a>
+
+                        <a href="" class="btn btn-outline-secondary "><b class="text-white d-inline px-2">$ </b>
+                            <p class="d-inline"> USD-U.S Dollar</p>
+                        </a>
+
+                        <a href="" class="btn btn-outline-secondary "><img src="united-states-flag-icon.svg"
+                                class="d-inline" height="12" alt="">
+                            <p class="d-inline text-capitalize ps-2">united states</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pb-3">
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">Amazon Music
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">Stream millions
+                    of songs</p>
+            </div>
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">Amazon Ads
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+                    Reach customers
+                    wherever they
+                    spend their time</p>
+            </div>
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">6pm
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+
+                    Score deals
+                    on fashion brands</p>
+            </div>
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">AbeBooks
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+
+
+                    Books, art
+                    & collectibles</p>
+            </div>
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">ACX
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+
+
+                    Audiobook Publishing
+                    Made Easy</p>
+            </div>
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">Sell on Amazon
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+
+
+                    Start a Selling Account</p>
+            </div>
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">Veeqo
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+
+
+                    Shipping Software
+                    Inventory Management</p>
+            </div>
+        </div>
+
+        <!-- r2 -->
+        <div class="row pb-3">
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">Amazon Music
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">Stream millions
+                    of songs</p>
+            </div>
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">Amazon Ads
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+                    Reach customers
+                    wherever they
+                    spend their time</p>
+            </div>
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">6pm
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+
+                    Score deals
+                    on fashion brands</p>
+            </div>
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">AbeBooks
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+
+
+                    Books, art
+                    & collectibles</p>
+            </div>
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">ACX
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+
+
+                    Audiobook Publishing
+                    Made Easy</p>
+            </div>
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">Sell on Amazon
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+
+
+                    Start a Selling Account</p>
+            </div>
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">Veeqo
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+
+
+                    Shipping Software
+                    Inventory Management</p>
+            </div>
+        </div>
+        <div class="row pb-3">
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">Amazon Music
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">Stream millions
+                    of songs</p>
+            </div>
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">Amazon Ads
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+                    Reach customers
+                    wherever they
+                    spend their time</p>
+            </div>
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">6pm
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+
+                    Score deals
+                    on fashion brands</p>
+            </div>
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">AbeBooks
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+
+
+                    Books, art
+                    & collectibles</p>
+            </div>
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">ACX
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+
+
+                    Audiobook Publishing
+                    Made Easy</p>
+            </div>
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">Sell on Amazon
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+
+
+                    Start a Selling Account</p>
+            </div>
+            <div class="col w">
+                <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">Veeqo
+                </h6>
+                <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+
+
+                    Shipping Software
+                    Inventory Management</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row d-flex justify-content-center text-center">
+                <div class="col-md-2 w">
+                    <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">ACX
+                    </h6>
+                    <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+
+
+                        Audiobook Publishing
+                        Made Easy</p>
+                </div>
+                <div class="col-md-2 w">
+                    <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">Sell on Amazon
+                    </h6>
+                    <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+
+
+                        Start a Selling Account</p>
+                </div>
+                <div class="col-md-2 w">
+                    <h6 class="p-0 m-0 fw-bold hf" style="font-size: 12px;color: rgb(223, 221, 221);">Veeqo
+                    </h6>
+                    <p class="p-0 m-0 pf" style="font-size: 12px;color: rgb(174, 174, 175);">
+
+
+                        Shipping Software
+                        Inventory Management</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="last text-center py-4 m-0 p-0">
+            <a class="ps-2 p-0 m-0" style="text-decoration: none; color: white ; " href="">Conditions of Use</a>
+            <a class="ps-2 p-0 m-0" style="text-decoration: none; color: white ; " href="">Privacy Notice</a>
+            <a class="ps-2 p-0 m-0" style="text-decoration: none; color: white ; " href="">Consumer Health Data Privacy
+                Disclosure</a>
+            <a class="ps-2 p-0 m-0" style="text-decoration: none; color: white ; " href="">Your Ads Privacy Choices</a>
+        </div>
+        <div class="text-center text-white p-0 m-0">© 1996-2025, Amazon.com, Inc. or its affiliates</div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const a = document.querySelector('.a');
+        const b = document.querySelector('.b');
+        const c = document.querySelector('.c');
+        const d = document.querySelector('.d');
+        const e = document.querySelector('.e');
+        const f = document.querySelector('.f');
+        const g = document.querySelector('.g');
+
+        const leftBtn1 = document.querySelector('.left-btn1');
+        const leftBtn2 = document.querySelector('.left-btn2');
+        const leftBtn3 = document.querySelector('.left-btn3');
+        const leftBtn4 = document.querySelector('.left-btn4');
+        const leftBtn5 = document.querySelector('.left-btn5');
+        const leftBtn6 = document.querySelector('.left-btn6');
+        const leftBtn7 = document.querySelector('.left-btn7');
+        const rightBtn1 = document.querySelector('.right-btn1');
+        const rightBtn2 = document.querySelector('.right-btn2');
+        const rightBtn3 = document.querySelector('.right-btn3');
+        const rightBtn4 = document.querySelector('.right-btn4');
+        const rightBtn5 = document.querySelector('.right-btn5');
+        const rightBtn6 = document.querySelector('.right-btn6')
+        const rightBtn7 = document.querySelector('.right-btn7')
+
+        leftBtn1.addEventListener('click', () => {
+            a.scrollBy({ left: -900, behavior: 'smooth' });
+        });
+
+        rightBtn1.addEventListener('click', () => {
+            a.scrollBy({ left: 900, behavior: 'smooth' });
+        });
+
+        leftBtn2.addEventListener('click', () => {
+            b.scrollBy({ left: -900, behavior: 'smooth' });
+        });
+
+        rightBtn2.addEventListener('click', () => {
+            b.scrollBy({ left: 900, behavior: 'smooth' });
+        });
+        leftBtn3.addEventListener('click', () => {
+            c.scrollBy({ left: -900, behavior: 'smooth' });
+        });
+
+        rightBtn3.addEventListener('click', () => {
+            c.scrollBy({ left: 900, behavior: 'smooth' });
+        });
+        leftBtn4.addEventListener('click', () => {
+            d.scrollBy({ left: -900, behavior: 'smooth' });
+        });
+
+        rightBtn4.addEventListener('click', () => {
+            d.scrollBy({ left: 900, behavior: 'smooth' });
+        });
+        leftBtn5.addEventListener('click', () => {
+            e.scrollBy({ left: -900, behavior: 'smooth' });
+        });
+
+        rightBtn5.addEventListener('click', () => {
+            e.scrollBy({ left: 900, behavior: 'smooth' });
+        });
+        leftBtn6.addEventListener('click', () => {
+            f.scrollBy({ left: -900, behavior: 'smooth' });
+        });
+
+        rightBtn6.addEventListener('click', () => {
+            f.scrollBy({ left: 900, behavior: 'smooth' });
+        });
+        leftBtn7.addEventListener('click', () => {
+            g.scrollBy({ left: -900, behavior: 'smooth' });
+        });
+
+        rightBtn7.addEventListener('click', () => {
+            g.scrollBy({ left: 900, behavior: 'smooth' });
+        });
+  let cart = [];
+    let images = document.querySelectorAll("img");
+    let num = document.querySelector(".number");
+    let name = document.querySelectorAll(".n");
+    let inc = 0;
+
+
+
+    images.forEach(img => {
+        
+        img.addEventListener("click", function () {
+            inc++;
+            num.textContent = inc;
+       
+            // Save clicked product
+            cart.push({
+                src: img.src    ,
+                name:img.nextElementSibling.textContent,
+                 rate: Math.floor(Math.random() * 1000) + 1,
+                  quantity: 1,
+                
+            });
+          
+            // Save cart to localStorage
+            localStorage.setItem("cart", JSON.stringify(cart));
+        });
+    });
+
+
+
+
+        window.addEventListener("load", function () {
+            setTimeout(function () {
+                document.getElementById("loader").style.display = "none";
+              
+            },500); 
+});
+
+    </script>
+
+    <script src="../../bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../fontawesome/js/all.min.js"></script>
+</body>
+
+</html>

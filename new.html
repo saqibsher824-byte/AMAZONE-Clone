@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <style>
+        .cart-item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .quantity-box {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .remove {
+            background: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Your Cart</h1>
+    <div id="cart-items"></div>
+    <h2 id="cart-total">Total: $0</h2>
+
+    <script>
+        // Get cart from localStorage
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+        let container = document.getElementById("cart-items");
+        let totalEl = document.getElementById("cart-total");
+
+        if (cart.length === 0) {
+            container.innerHTML = "<p>Your cart is empty</p>";
+        } else {
+            cart.forEach((item, index) => {
+                if (!item.quantity) item.quantity = 1;
+
+                let div = document.createElement("div");
+                div.classList.add("cart-item");
+                div.innerHTML = `
+          <img src="${item.src}" width="100">
+          <p>${item.name}</p>
+          <p>price: $${item.rate}</p>
+          <div class="quantity-box">
+            <button class="minus">-</button>
+            <span class="quantity">${item.quantity}</span>
+            <button class="plus">+</button>
+          </div>
+          <p class="item-total">Item Total: $${item.rate * item.quantity}</p>
+          <button class="remove">❌ Remove</button>
+        `;
+                container.appendChild(div);
+
+                let quantityEl = div.querySelector(".quantity");
+                let plusBtn = div.querySelector(".plus");
+                let minusBtn = div.querySelector(".minus");
+                let itemTotalEl = div.querySelector(".item-total");
+                let removeBtn = div.querySelector(".remove");
+
+                plusBtn.addEventListener("click", () => {
+                    item.quantity++;
+                    quantityEl.textContent = item.quantity;
+                    itemTotalEl.textContent = `Item Total: $${item.rate * item.quantity}`;
+                    localStorage.setItem("cart", JSON.stringify(cart));
+                    updateCartTotal();
+                });
+
+                minusBtn.addEventListener("click", () => {
+                    if (item.quantity > 1) {
+                        item.quantity--;
+                        quantityEl.textContent = item.quantity;
+                        itemTotalEl.textContent = `Item Total: $${item.rate * item.quantity}`;
+                        localStorage.setItem("cart", JSON.stringify(cart));
+                        updateCartTotal();
+                    }
+                });
+
+                removeBtn.addEventListener("click", () => {
+                 
+               
+                    // cart.splice(index, 1);
+                      cart = cart.filter(c => c.src !== item.src); 
+         
+                    localStorage.setItem("cart", JSON.stringify(cart));
+                    
+                    
+                    div.remove();
+                    updateCartTotal();
+                    console.log(cart.length)
+                    if (cart.length == 0) {
+                        container.innerHTML = "<p>Your cart is empty</p>";
+                             updateCartTotal();
+                    }
+                });
+            });
+
+            updateCartTotal();
+        }
+
+        // Function to update cart total
+        function updateCartTotal() {
+            let total = cart.reduce((sum, item) => sum + (item.rate * item.quantity), 0);
+            totalEl.textContent = `Total: $${total}`;
+        }
+    </script>
+</body>
+
+</html>

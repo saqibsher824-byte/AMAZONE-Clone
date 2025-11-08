@@ -1,0 +1,230 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+img{
+    object-fit: cover!important;
+    cursor: pointer;
+ 
+}
+.overlay{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.99;
+background: linear-gradient(to bottom,
+          transparent,
+
+            transparent 1%,
+        rgb(226, 241, 255) 75%);
+}
+.hoverc{
+    border:1px solid transparent;
+    border-radius: 5px;
+    padding: auto !important;
+    height: 61px;
+}
+.hoverc:hover {
+            border: 1px solid white;
+            border-radius: 4px;
+            background-color: rgba(255, 255, 255, 0.1);
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        .hovera:hover {
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.hovera{
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.hoverl:hover{
+    transition: 0.3s;
+
+
+    color: rgb(100, 150, 243)!important;
+}
+
+body{
+height: calc(100vh);
+}
+ .carousel-control-prev-icon, .carousel-control-next-icon{
+    margin-bottom: 400px;
+   
+}
+.pos{
+    position: relative!important;
+    bottom: 368px;
+    
+}
+.scroll-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    padding: 40px 0 20px 0;
+    background-color: white;
+    /* Firefox */
+}
+.containr{
+    width: 91vw;
+   
+    margin: 0 auto;
+}
+.a::after{
+    content: "Top picks for Pakistan";
+    font-weight: bolder;
+    font-size: 25px;
+    padding:0 20px 10px 10px;
+    position: absolute;
+    top: 0%;
+}
+.b::after {
+    content: "International top sellers in Kitchen";
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 0 20px 10px 10px;
+    position: absolute;
+    top: 0%;
+}
+.c::after {
+    content: "Best Sellers in Home & Kitchen";
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 0 20px 10px 10px;
+    position: absolute;
+    top: 0%;
+}
+.d::after {
+    content: "Best Sellers in Clothing, Shoes & Jewelry";
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 0 20px 10px 10px;
+    position: absolute;
+    top: 0%;
+}
+.e::after {
+    content: "Top Sellers in Toys for you";
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 0 20px 10px 10px;
+    position: absolute;
+    top: 0%;
+}
+.f::after {
+    content: "Best Sellers in Computers & Accessories";
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 0 20px 10px 10px;
+    position: absolute;
+    top: 0%;
+}
+.g::after {
+    content: "Best Sellers in Sports & Outdoors";
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 0 20px 10px 10px;
+    position: absolute;
+    top: 0%;
+}
+
+.scroll-carousel::-webkit-scrollbar {
+    display: none;
+   
+}
+
+.scroll-carousel img {
+    flex: 0 0 auto;
+  
+    /* adjust height */
+    object-fit: cover;
+ 
+}
+
+/* Arrow buttons */
+.scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 8px 12px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+}
+
+.left-btn {
+    left: 20px;
+}
+
+.right-btn {
+    right: 20px;
+}
+
+.scroll-btn:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+.w:hover .hf {
+text-decoration: underline;
+}
+.w:hover .pf {
+
+    text-decoration: underline;
+}
+
+  #loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #ffffff91;
+      /* page background */
+      z-index: 9999;
+  }
+
+  .spiner1 {
+      width: 60px;
+      height: 60px;
+      border: 5px solid orangered;
+      border-top: 5px solid transparent;
+      border-radius: 50%;
+    
+      animation: spin 1s linear infinite;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .spiner2 {
+      width: 40px;
+      height: 40px;
+      border: 5px solid ;
+      border-top: 5px solid transparent;
+      border-radius: 50%;
+      animation: spin 1s ease infinite;
+      z-index: 1000;
+  }
+  @keyframes spin {
+      0% {
+          transform: rotate(0deg);
+      }
+
+      100% {
+          transform: rotate(-360deg);
+      }
+  }
+
+
